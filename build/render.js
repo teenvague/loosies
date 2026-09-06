@@ -12,27 +12,25 @@ const widthAt = (box, block) => Math.min(
   block.image.width || box
 );
 
-// Twelve columns at full width, eight in the middle band.
-const toEight = (col, span) => {
-  const mspan = Math.min(8, Math.max(2, Math.round(span * 8 / 12)));
-  const mcol = Math.min(9 - mspan, Math.max(1, Math.round((col - 1) * 8 / 12) + 1));
-  return [mcol, mspan];
-};
-
 const FILENAME = /\.(jpe?g|png|gif|webp|avif|tiff?)$/i;
 const SCREENSHOT = /^(screen ?shot|screenshot|img[_-]?\d|image[_-]?\d|untitled|unnamed|photo[_-]?\d|pasted)/i;
 const worthShowing = (t) => t && !FILENAME.test(t) && !SCREENSHOT.test(t.trim());
 
+// Placement for all three grids — twelve columns, eight, four — is decided in
+// spreads.js and travels on the element. The stylesheet only chooses which set
+// of custom properties is in force at a given width.
 function placement(slot) {
-  const [mcol, mspan] = toEight(slot.col, slot.span);
-  return `--col:${slot.col};--span:${slot.span};--row:${slot.row};--mcol:${mcol};--mspan:${mspan}`;
+  return [
+    `--col:${slot.col}`, `--span:${slot.span}`, `--row:${slot.row}`,
+    `--mcol:${slot.mcol}`, `--mspan:${slot.mspan}`, `--mrow:${slot.mrow}`,
+    `--scol:${slot.scol}`, `--sspan:${slot.sspan}`, `--srow:${slot.srow}`,
+  ].join(';');
 }
 
 function sizes(slot) {
-  const [, mspan] = toEight(slot.col, slot.span);
-  const wide = Math.round(slot.span / 12 * 100);
-  const mid = Math.round(mspan / 8 * 100);
-  return `(min-width: 900px) ${wide}vw, (min-width: 560px) ${mid}vw, 92vw`;
+  const pct = (span, cols) => Math.round(span / cols * 100);
+  return `(min-width: 900px) ${pct(slot.span, 12)}vw, ` +
+         `(min-width: 560px) ${pct(slot.mspan, 8)}vw, ${pct(slot.sspan, 4)}vw`;
 }
 
 function imageSlot(slot) {

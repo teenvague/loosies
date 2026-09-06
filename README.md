@@ -69,27 +69,36 @@ forgotten.
 
 ## The layout
 
-The draft is in `design/draft.html` — one hand-composed band: a twelve-column
-grid with no column gap, blocks spanning three to ten columns, some hung from
-the top of their row and some sitting on its baseline, text placed as an
-element rather than hung under an image as a caption.
+The draft is in `design/draft.html`. `build/spreads.js` turns its grammar into
+a rotation of bands on a rigid twelve-column grid:
 
-`build/spreads.js` turns that into eight variants — `opening` (the draft's own
-band), `pair`, `aside`, `wide`, `scatter`, `stack`, `bleed`, `quiet` — which
-rotate down the page. Four of them use no text, so a stretch of channel with
-nothing written in it still varies. The gap between bands moves on a four-step
-cycle so eight layouts don't read as a repeat.
+- **Most bands are two or three images sharing a baseline and touching** — no
+  gap, and deliberately unequal heights. Equal heights would read as a strip
+  rather than a composition.
+- **Between them, single images**, alternating between very large (nine to
+  twelve columns) and small (three to four), so scale keeps moving.
+- **Less often, a band hangs from a shared top line** instead of a baseline,
+  or opens white space between its images while still holding the line.
+  Roughly one band in five does each.
 
-Slots ask for an orientation (`landscape`, `portrait`, `square`). The assigner
-looks up to six blocks ahead for one that matches and otherwise takes what's
-next, so the channel's own order is broadly kept while the composition holds.
+Unequal height is not left to chance. An image's height is its column span
+divided by its aspect ratio, so the assigner chooses *which* image takes
+*which* span — searching about a dozen blocks ahead — so that no two
+neighbours in a band come out within 18% of each other, and no image exceeds
+roughly 0.8 of the page width in height. Where the channel can't supply a
+combination that works, it takes the best available rather than stalling.
 
-**Nothing is cropped.** Each frame takes its image's true proportions, straight
+**Nothing is cropped.** Each frame takes its image's true proportions straight
 from Are.na's `aspect_ratio`; the composition is made of column spans and
-baselines, not of forcing pictures into fixed rectangles.
+shared lines, not of forcing pictures into fixed rectangles.
 
-To change the layout, edit the slot tables in `build/spreads.js` and run
-`node build/preview.js`. To change type, colour, or spacing, edit
+The grid never dissolves into a stack. It re-proportions to eight columns below
+900px and four below 560px, with spans worked out at build time so bands still
+tile exactly and still hold their shared line. Only a three-image band on the
+four-column grid wraps, dropping its third image to a row of its own.
+
+To change the layout, edit the band table at the top of `build/spreads.js` and
+run `node build/preview.js`. To change type, colour, or spacing, edit
 `dist/styles.css` and reload — no build needed.
 
 ---

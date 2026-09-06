@@ -118,6 +118,10 @@ main { padding: var(--pad); }
 
 /* --- eight columns ------------------------------------------------------- */
 
+/* The grid never dissolves into a stack: it re-proportions. Spans for the
+   narrower grids are worked out at build time so bands still tile exactly,
+   still touch, and still hold their shared line. */
+
 @media (max-width: 899px) {
   .spread {
     grid-template-columns: repeat(8, minmax(0, 1fr));
@@ -125,7 +129,10 @@ main { padding: var(--pad); }
     margin-bottom: 84px;
   }
 
-  .slot { grid-column: var(--mcol) / span var(--mspan); }
+  .slot {
+    grid-column: var(--mcol) / span var(--mspan);
+    grid-row: var(--mrow);
+  }
 
   .spread[data-rhythm="1"] { margin-bottom: 56px; }
   .spread[data-rhythm="2"] { margin-bottom: 104px; }
@@ -134,29 +141,24 @@ main { padding: var(--pad); }
   .text { font-size: 18px; }
 }
 
-/* --- one column ---------------------------------------------------------- */
+/* --- four columns -------------------------------------------------------- */
 
 @media (max-width: 559px) {
+  :root { --row-gap: 32px; }
+
   .spread {
-    display: block;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
     margin-bottom: 56px;
+  }
+
+  .slot {
+    grid-column: var(--scol) / span var(--sspan);
+    grid-row: var(--srow);
   }
 
   .spread[data-rhythm="1"] { margin-bottom: 40px; }
   .spread[data-rhythm="2"] { margin-bottom: 72px; }
   .spread[data-rhythm="3"] { margin-bottom: 56px; }
 
-  /* Span survives as width, so the difference between a big block and a small
-     one is still legible when there is only one column to put them in. */
-  .slot {
-    width: max(62%, calc(var(--span) / 12 * 100%));
-    margin-bottom: 34px;
-  }
-
-  .slot[data-align="end"] { margin-left: auto; }
-
-  .slot.text {
-    width: 100%;
-    margin-bottom: 40px;
-  }
+  .label { font-size: 10px; }
 }
