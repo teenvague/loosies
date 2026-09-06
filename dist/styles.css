@@ -67,9 +67,6 @@ main { padding: var(--pad); }
    the composition; the composition is made of spans and baselines instead. */
 .frame {
   display: block;
-  background: var(--muted);
-  aspect-ratio: var(--ratio, 1);
-  overflow: hidden;
 }
 
 .frame img {
