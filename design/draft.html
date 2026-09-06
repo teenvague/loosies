@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>TEENVAGUE — Draft</title>
+  <style>
+    :root {
+      --pad: 20px;
+      --ink: #111;
+      --bg: #fff;
+      --muted: #d8d4cc;
+    }
+
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; background: var(--bg); color: var(--ink); }
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      letter-spacing: 0.01em;
+      overflow-x: hidden;
+    }
+
+    a { color: inherit; text-decoration: none; }
+
+    .site-header { display: none; }
+
+    main {
+      padding: var(--pad);
+      display: grid;
+      grid-template-columns: repeat(12, minmax(0, 1fr));
+      column-gap: 0;
+      row-gap: 56px;
+      align-items: start;
+    }
+
+    .block { min-width: 0; }
+    .image {
+      background: var(--muted);
+      overflow: hidden;
+    }
+    .image img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .ph-1 { background: linear-gradient(135deg, #b8b4ad, #ece7df); }
+    .ph-2 { background: linear-gradient(135deg, #151515, #8e8b84 60%, #d9d6cf); }
+    .ph-3 { background: linear-gradient(135deg, #d4c5b4, #7c7265); }
+    .ph-4 { background: linear-gradient(135deg, #eee7db, #9d9387); }
+    .ph-5 { background: linear-gradient(135deg, #7f878a, #dfe4e2); }
+    .ph-6 { background: linear-gradient(135deg, #bcafa4, #383531); }
+
+    .b1 { grid-column: 1 / span 6; grid-row: 1; align-self: end; }
+    .b1 .image { aspect-ratio: 4 / 3; }
+
+    .b2 { grid-column: 7 / span 3; grid-row: 1; align-self: end; margin-top: 0; }
+    .b2 .image { aspect-ratio: 3 / 4; }
+    .b2c { grid-column: 10 / span 3; grid-row: 1; align-self: end; }
+    .b2c .image { aspect-ratio: 4 / 3; }
+
+    .b3 { grid-column: 2 / span 3; grid-row: 3; align-self: start; margin-top: 0; }
+    .b3 .image { aspect-ratio: 1 / 1; }
+.text-large {
+      grid-column: 2 / span 7;
+      grid-row: 2;
+      max-width: 920px;
+    }
+
+    .b4 { grid-column: 1 / span 10; grid-row: 5; align-self: start; }
+    .b4 .image { aspect-ratio: 16 / 10; }
+
+    .text-medium {
+      grid-column: 7 / span 5;
+      grid-row: 4;
+      max-width: 720px;
+    }
+
+    .b5 { grid-column: 1 / span 4; grid-row: 6; align-self: end; }
+    .b5 .image { aspect-ratio: 3 / 4; }
+
+    .b6 { grid-column: 5 / span 8; grid-row: 6; align-self: end; margin-top: 0; }
+    .b6 .image { aspect-ratio: 4 / 5; }
+
+    .text-small {
+      grid-column: 1 / span 5;
+      grid-row: 7;
+      max-width: 520px;
+    }
+
+    .label {
+      margin-top: 7px;
+      font-size: 11px;
+      line-height: 1.2;
+      text-transform: uppercase;
+    }
+
+
+    .text-large,
+    .text-medium,
+    .text-small {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 20px;
+      line-height: 1.18;
+      letter-spacing: 0.01em;
+      font-weight: 400;
+    }
+
+    @media (max-width: 760px) {
+      .text-large,
+      .text-medium,
+      .text-small {
+        font-size: 18px;
+        line-height: 1.18;
+      }
+
+      :root { --pad: 20px; }
+
+      main {
+        grid-template-columns: repeat(8, minmax(0, 1fr));
+        column-gap: 0;
+        row-gap: 40px;
+        padding: var(--pad);
+      }
+.b1 { grid-column: 1 / span 6; grid-row: auto; align-self: auto; }
+      .b2 { grid-column: 5 / span 2; grid-row: 1; align-self: end; margin-top: 0; }
+      .b2c { grid-column: 7 / span 2; grid-row: 1; align-self: end; }
+      .b3 { grid-column: 6 / span 2; grid-row: 3; align-self: start; margin-top: 0; }
+
+      .text-large {
+        grid-column: 1 / span 5;
+      }
+
+      .b4 { grid-column: 1 / span 10; grid-row: 5; align-self: start; }
+      .text-medium {
+        grid-column: 3 / span 6;
+        grid-row: 4;
+      }
+
+      .b5 { grid-column: 1 / span 3; grid-row: 6; align-self: end; }
+      .b6 { grid-column: 4 / span 5; grid-row: 6; align-self: end; margin-top: 0; }
+      .text-small {
+        grid-column: 1 / span 5;
+        grid-row: 7;
+      }
+
+      .footer {
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="block b1">
+      <div class="image ph-1"></div>
+    </section>
+
+    <section class="block b2">
+      <div class="image ph-2"></div>
+    </section>
+
+    <section class="block b2c">
+      <div class="image ph-5"></div>
+    </section>
+
+    <section class="block b3">
+      <div class="image ph-3"></div>
+    </section>
+
+    <section class="block text-large">
+      There are images you save because they explain something before you know what the explanation is.
+    </section>
+
+    <section class="block b4">
+      <div class="image ph-4"></div>
+    </section>
+
+    <section class="block text-medium">
+      A private archive made public through arrangement.
+    </section>
+
+    <section class="block b5">
+      <div class="image ph-5"></div>
+    </section>
+
+    <section class="block b6">
+      <div class="image ph-6"></div>
+    </section>
+
+    <section class="block text-small">
+      Not every text block should behave as a caption. Longer writing can sit quietly in a readable column, while shorter phrases are allowed to become spatial and graphic.
+    </section>
+
+  </main>
+</body>
+</html>

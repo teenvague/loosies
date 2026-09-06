@@ -1,0 +1,78 @@
+name: Refresh from Are.na and publish
+
+# Three ways in:
+#   schedule          — re-read the channel each morning, then publish
+#   workflow_dispatch — the same, on demand, from the Actions tab
+#   push to main      — republish design edits without touching Are.na
+#                       (this path needs no token: it rebuilds from the
+#                        committed snapshot in dist/data/channel.json)
+
+on:
+  schedule:
+    - cron: '0 13 * * *'   # 9 a.m. New York in summer, 8 a.m. in winter
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write     # commit the refreshed snapshot and mirrored images
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    if: github.event_name != 'push'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Read the channel and mirror new images
+        env:
+          # Personal access token from are.na → Settings → Applications.
+          # The v3 API requires one even for a channel you own.
+          ARENA_TOKEN: ${{ secrets.ARENA_TOKEN }}
+        run: node build/build.js --fetch --mirror
+
+      - name: Commit the snapshot
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add dist/data dist/images dist/index.html
+          if git diff --cached --quiet; then
+            echo "Channel unchanged; nothing to commit."
+          else
+            git commit -m "Refresh loosies $(date -u +'%Y-%m-%d')"
+            git push
+          fi
+
+  deploy:
+    needs: refresh
+    # Runs after a successful refresh, and on its own for pushes to main
+    # (where the refresh job is skipped rather than run).
+    if: always() && needs.refresh.result != 'failure' && needs.refresh.result != 'cancelled'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main        # pick up whatever the refresh job just committed
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Rebuild the page from the committed snapshot
+        run: node build/build.js
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+      - id: deployment
+        uses: actions/deploy-pages@v4

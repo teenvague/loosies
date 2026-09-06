@@ -1,0 +1,162 @@
+/* TEENVAGUE — Loosies
+   The design lives here. index.html is generated; this file is not.
+   Grid placement arrives on each element as --col / --span / --row (twelve
+   columns) and --mcol / --mspan (eight), written by build/render.js. */
+
+:root {
+  --pad: 20px;
+  --ink: #111;
+  --bg: #fff;
+  --muted: #d8d4cc;
+  --row-gap: 56px;
+  color-scheme: light;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--ink);
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.01em;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+a { color: inherit; text-decoration: none; }
+
+main { padding: var(--pad); }
+
+/* --- a spread ------------------------------------------------------------ */
+
+.spread {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  column-gap: 0;
+  row-gap: var(--row-gap);
+  align-items: start;
+  margin-bottom: 112px;
+}
+
+/* The distance between bands varies on a four-step cycle, so eight rotating
+   layouts do not settle into a visible beat. */
+.spread[data-rhythm="1"] { margin-bottom: 72px; }
+.spread[data-rhythm="2"] { margin-bottom: 148px; }
+.spread[data-rhythm="3"] { margin-bottom: 96px; }
+.spread:last-child { margin-bottom: 40px; }
+
+.slot {
+  min-width: 0;
+  margin: 0;
+  position: relative;
+  grid-column: var(--col) / span var(--span);
+  grid-row: var(--row);
+  align-self: start;
+}
+
+.slot[data-align="end"] { align-self: end; }
+
+/* --- images -------------------------------------------------------------- */
+
+/* The frame takes the image's own proportions, so nothing is cropped to fit
+   the composition; the composition is made of spans and baselines instead. */
+.frame {
+  display: block;
+  background: var(--muted);
+  aspect-ratio: var(--ratio, 1);
+  overflow: hidden;
+}
+
+.frame img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.label {
+  margin-top: 7px;
+  font-size: 11px;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+/* A block hung from the baseline of its row aligns on the bottom edge of the
+   image, not the bottom of its caption — otherwise a labelled block sits a
+   line higher than its unlabelled neighbours and the baseline breaks. The
+   caption hangs into the gap below instead. */
+.slot[data-align="end"] .label {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  margin-top: 7px;
+}
+
+/* --- text ---------------------------------------------------------------- */
+
+/* Not every text block behaves as a caption: longer writing sits in a readable
+   column, shorter phrases are allowed to be spatial. */
+.text {
+  font-size: 20px;
+  line-height: 1.18;
+  letter-spacing: 0.01em;
+  font-weight: 400;
+}
+
+.text p { margin: 0 0 0.9em; }
+.text p:last-child { margin-bottom: 0; }
+
+.text-large  { max-width: 920px; }
+.text-medium { max-width: 720px; }
+.text-small  { max-width: 520px; }
+
+/* --- eight columns ------------------------------------------------------- */
+
+@media (max-width: 899px) {
+  .spread {
+    grid-template-columns: repeat(8, minmax(0, 1fr));
+    row-gap: 40px;
+    margin-bottom: 84px;
+  }
+
+  .slot { grid-column: var(--mcol) / span var(--mspan); }
+
+  .spread[data-rhythm="1"] { margin-bottom: 56px; }
+  .spread[data-rhythm="2"] { margin-bottom: 104px; }
+  .spread[data-rhythm="3"] { margin-bottom: 72px; }
+
+  .text { font-size: 18px; }
+}
+
+/* --- one column ---------------------------------------------------------- */
+
+@media (max-width: 559px) {
+  .spread {
+    display: block;
+    margin-bottom: 56px;
+  }
+
+  .spread[data-rhythm="1"] { margin-bottom: 40px; }
+  .spread[data-rhythm="2"] { margin-bottom: 72px; }
+  .spread[data-rhythm="3"] { margin-bottom: 56px; }
+
+  /* Span survives as width, so the difference between a big block and a small
+     one is still legible when there is only one column to put them in. */
+  .slot {
+    width: max(62%, calc(var(--span) / 12 * 100%));
+    margin-bottom: 34px;
+  }
+
+  .slot[data-align="end"] { margin-left: auto; }
+
+  .slot.text {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+}

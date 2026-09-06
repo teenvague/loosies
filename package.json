@@ -1,0 +1,11 @@
+{
+  "name": "teenvague-loosies",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "fetch": "node build/build.js --fetch",
+    "build": "node build/build.js",
+    "refresh": "node build/build.js --fetch --mirror"
+  }
+}
