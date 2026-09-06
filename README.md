@@ -126,6 +126,6 @@ git push
 The first time, after making the empty `teenvague/loosies` repo on GitHub:
 
 ```sh
-git remote add origin git@github.com:teenvague/loosies.git
+git remote add origin https://github.com/teenvague/loosies.git
 git push -u origin main
 ```
