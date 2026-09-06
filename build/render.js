@@ -45,7 +45,7 @@ function imageSlot(slot) {
     large && large !== medium && `images/${large} ${widthAt(1800, b)}w`,
   ].filter(Boolean).join(', ');
 
-  const label = [worthShowing(b.title) ? b.title : null, b.provider].filter(Boolean).join(' — ');
+  const label = worthShowing(b.title) ? b.title : '';
   const ratio = (b.image.ratio || 1).toFixed(4);
 
   const picture = `<img src="images/${esc(large)}" srcset="${esc(srcset)}" sizes="${sizes(slot)}"` +
