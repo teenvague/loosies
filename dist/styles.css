@@ -142,8 +142,25 @@ main { padding: var(--pad); }
 @media (max-width: 559px) {
   :root { --row-gap: 32px; }
 
+  html,
+  body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
   main {
+    width: 100%;
+    max-width: 100%;
     padding: 0;
+    overflow-x: hidden;
+  }
+
+  .spread,
+  .slot,
+  .frame,
+  .frame img {
+    max-width: 100%;
   }
 
   .spread {
