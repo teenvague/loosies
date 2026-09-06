@@ -30,19 +30,19 @@ const BANDS = [
   { kind: 'solo',  spans: [10], col: 1, maxHeight: 7.5 },
   { kind: 'group', spans: [5, 7], align: 'start' },        // shared top line
   { kind: 'group', spans: [8, 4] },
-  { kind: 'solo',  spans: [3],  col: 9 },
+  { kind: 'solo',  spans: [3],  col: 10 },
   { kind: 'group', spans: [3, 5, 4] },
   { kind: 'group', spans: [5, 4], gaps: [3] },             // baseline held across a gap
   { kind: 'solo',  spans: [12], col: 1, maxHeight: 6.5 },
   { kind: 'group', spans: [4, 8] },
   { kind: 'group', spans: [6, 3, 3], align: 'start' },     // shared top line, three
-  { kind: 'solo',  spans: [4],  col: 1 },
+  { kind: 'solo',  spans: [4],  col: 9 },
   { kind: 'group', spans: [5, 4, 3] },
   { kind: 'group', spans: [7, 5] },
   { kind: 'solo',  spans: [9],  col: 4, maxHeight: 7.5 },
   { kind: 'group', spans: [3, 3, 4], gaps: [1, 1] },       // three, loosely spaced
   { kind: 'group', spans: [4, 8] },
-  { kind: 'solo',  spans: [3],  col: 5 },
+  { kind: 'solo',  spans: [3],  col: 1 },
   { kind: 'group', spans: [6, 6] },
   { kind: 'group', spans: [3, 4], gaps: [2], col: 2, align: 'start' },
   { kind: 'group', spans: [4, 3, 5] },
