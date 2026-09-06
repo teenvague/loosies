@@ -208,13 +208,20 @@ function fit(spec, blocks, cols) {
     return [{ col, span, row: 1 }];
   }
 
-  // Three images will not survive four columns; the third drops to its own row.
+  // On phones, three-image bands stay on one shared baseline.
+  // Give one image two columns and the other two one column each,
+  // following whichever image had the largest desktop span.
   if (cols === 4 && n === 3) {
-    return [
-      { col: 1, span: 2, row: 1 },
-      { col: 3, span: 2, row: 1 },
-      { col: 1, span: 2, row: 2 },
-    ];
+    const largest = spec.spans.indexOf(Math.max(...spec.spans));
+    const spans = [1, 1, 1];
+    spans[largest] = 2;
+
+    let col = 1;
+    return spans.map(span => {
+      const slot = { col, span, row: 1 };
+      col += span;
+      return slot;
+    });
   }
 
   const k = cols / 12;

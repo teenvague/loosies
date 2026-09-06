@@ -142,6 +142,10 @@ main { padding: var(--pad); }
 @media (max-width: 559px) {
   :root { --row-gap: 32px; }
 
+  main {
+    padding: 0;
+  }
+
   .spread {
     grid-template-columns: repeat(4, minmax(0, 1fr));
     margin-bottom: 56px;
