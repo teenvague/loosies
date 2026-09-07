@@ -54,9 +54,7 @@ function imageSlot(slot) {
 
   // Blocks that came from somewhere link back to it. Are.na block URLs are not
   // used: the channel is private, so they would 404 for everyone but Betty.
-  const frame = b.source
-    ? `<a class="frame" style="--ratio:${ratio}" href="${esc(b.source)}" target="_blank" rel="noreferrer">${picture}</a>`
-    : `<div class="frame" style="--ratio:${ratio}">${picture}</div>`;
+  const frame = `<div class="frame" style="--ratio:${ratio}">${picture}</div>`;
 
   return `      <figure class="slot image" data-align="${slot.align || 'start'}" style="${placement(slot)}">
         ${frame}${label ? `\n        <figcaption class="label">${esc(label)}</figcaption>` : ''}
