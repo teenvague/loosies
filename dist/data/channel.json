@@ -1,17 +1,199 @@
 {
-  "fetched_at": "2026-09-07T00:32:31.612Z",
+  "fetched_at": "2026-09-07T00:51:01.609Z",
   "channel": {
     "id": 5680724,
     "slug": "teenvague-loosies",
     "title": "teenvague / loosies",
-    "updated_at": "2026-09-07T00:31:36Z",
-    "count": 54
+    "updated_at": "2026-09-07T00:50:19Z",
+    "count": 59
   },
   "blocks": [
     {
-      "id": 28800724,
+      "id": 28658624,
+      "type": "Image",
+      "position": 59,
+      "title": "Comme des Garçons - Brian Griffin (1989)",
+      "href": "https://www.are.na/block/28658624",
+      "connected_at": "2026-09-07T00:50:19Z",
+      "kind": "image",
+      "source": null,
+      "provider": null,
+      "alt": "Comme des Garçons - Brian Griffin (1989)",
+      "image": {
+        "width": 1280,
+        "height": 1282,
+        "ratio": 0.9984,
+        "content_type": "image/jpeg",
+        "updated_at": "2024-06-10T00:33:06Z",
+        "original": "https://d2w9rnfcy7mm78.cloudfront.net/28658624/original_8230e06722260516289d0d87bca77b29.png?1717979586",
+        "medium": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyODY1ODYyNC9vcmlnaW5hbF84MjMwZTA2NzIyMjYwNTE2Mjg5ZDBkODdiY2E3N2IyOS5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==",
+        "large": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyODY1ODYyNC9vcmlnaW5hbF84MjMwZTA2NzIyMjYwNTE2Mjg5ZDBkODdiY2E3N2IyOS5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ=="
+      },
+      "files": [
+        "28658624-medium.webp",
+        "28658624-large.webp"
+      ]
+    },
+    {
+      "id": 22531189,
+      "type": "Image",
+      "position": 58,
+      "title": "357654956_818008956624468_77264801734231892_n.jpg?stp=dst-jpg_e35-_nc_ht=instagram.fyvr3-1.fna.fbcdn.net-_nc_cat=100-_nc_ohc...",
+      "href": "https://www.are.na/block/22531189",
+      "connected_at": "2026-09-07T00:49:00Z",
+      "kind": "image",
+      "source": "https://instagram.fyvr3-1.fna.fbcdn.net/v/t51.2885-15/357654956_818008956624468_77264801734231892_n.jpg?stp=dst-jpg_e35&_nc_ht=instagram.fyvr3-1.fna.fbcdn.net&_nc_cat=100&_nc_ohc=SQe9BfzqrBMAX_XBeYb&edm=ACOOH6wBAAAA&ccb=7-5&ig_cache_key=MzEzODc2MzQ0MzIwNDkzMTU5Ng%3D%3D.2-ccb7-5&oh=00_AfDn-g8_d5dnIhNe9zNBbIYwZQvhdxyFRyzDVyhrNeDr7A&oe=64A95107&_nc_sid=aa4e97",
+      "provider": "instagram.fyvr3-1.fna.fbcdn.net",
+      "alt": "357654956_818008956624468_77264801734231892_n.jpg?stp=dst-jpg_e35-_nc_ht=instagram.fyvr3-1.fna.fbcdn.net-_nc_cat=100-_nc_ohc...",
+      "image": {
+        "width": 1440,
+        "height": 1440,
+        "ratio": 1,
+        "content_type": "image/jpeg",
+        "updated_at": "2023-07-05T05:12:28Z",
+        "original": "https://d2w9rnfcy7mm78.cloudfront.net/22531189/original_aa17e941cdd4a7cc360e14819b404cab.jpg?1688533948",
+        "medium": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyMjUzMTE4OS9vcmlnaW5hbF9hYTE3ZTk0MWNkZDRhN2NjMzYwZTE0ODE5YjQwNGNhYi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==",
+        "large": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyMjUzMTE4OS9vcmlnaW5hbF9hYTE3ZTk0MWNkZDRhN2NjMzYwZTE0ODE5YjQwNGNhYi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ=="
+      },
+      "files": [
+        "22531189-medium.webp",
+        "22531189-large.webp"
+      ]
+    },
+    {
+      "id": 24296528,
+      "type": "Image",
+      "position": 57,
+      "title": "Ernst Haas",
+      "href": "https://www.are.na/block/24296528",
+      "connected_at": "2026-09-07T00:48:23Z",
+      "kind": "image",
+      "source": null,
+      "provider": null,
+      "alt": "Ernst Haas",
+      "image": {
+        "width": 1170,
+        "height": 1168,
+        "ratio": 1.0017,
+        "content_type": "image/jpeg",
+        "updated_at": "2023-10-22T20:45:23Z",
+        "original": "https://d2w9rnfcy7mm78.cloudfront.net/24296528/original_ccd230239cd57ad4c6d4dce239ee4b1f.jpg?1698007523",
+        "medium": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNDI5NjUyOC9vcmlnaW5hbF9jY2QyMzAyMzljZDU3YWQ0YzZkNGRjZTIzOWVlNGIxZi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==",
+        "large": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNDI5NjUyOC9vcmlnaW5hbF9jY2QyMzAyMzljZDU3YWQ0YzZkNGRjZTIzOWVlNGIxZi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ=="
+      },
+      "files": [
+        "24296528-medium.webp",
+        "24296528-large.webp"
+      ]
+    },
+    {
+      "id": 50184613,
+      "type": "Image",
+      "position": 56,
+      "title": "§ù§",
+      "href": "https://www.are.na/block/50184613",
+      "connected_at": "2026-09-07T00:46:48Z",
+      "kind": "image",
+      "source": "https://www.pinterest.com/pin/3096293491111306/",
+      "provider": "pinterest.com",
+      "alt": "§ù§",
+      "image": {
+        "width": 736,
+        "height": 998,
+        "ratio": 0.7375,
+        "content_type": "image/jpeg",
+        "updated_at": "2026-09-07T00:47:15Z",
+        "original": "https://d2w9rnfcy7mm78.cloudfront.net/50184613/original_1b41de014183d2cbd84d97204f36fe3b.jpeg?1788742035",
+        "medium": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDE4NDYxMy9vcmlnaW5hbF8xYjQxZGUwMTQxODNkMmNiZDg0ZDk3MjA0ZjM2ZmUzYi5qcGVnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxMjAwLCJoZWlnaHQiOjEyMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=",
+        "large": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDE4NDYxMy9vcmlnaW5hbF8xYjQxZGUwMTQxODNkMmNiZDg0ZDk3MjA0ZjM2ZmUzYi5qcGVnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxODAwLCJoZWlnaHQiOjE4MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "files": [
+        "50184613-medium.webp",
+        "50184613-large.webp"
+      ]
+    },
+    {
+      "id": 50184574,
+      "type": "Image",
+      "position": 55,
+      "title": "Nobuyoshi Araki, Tokyo Novelle, 1995 | Michael Hoppen Gallery",
+      "href": "https://www.are.na/block/50184574",
+      "connected_at": "2026-09-07T00:45:49Z",
+      "kind": "image",
+      "source": "https://www.michaelhoppengallery.com/artists/32-nobuyoshi-araki/works/33663-nobuyoshi-araki-tokyo-novelle-1995/",
+      "provider": "michaelhoppengallery.com",
+      "alt": "Nobuyoshi Araki, Tokyo Novelle, 1995 | Michael Hoppen Gallery",
+      "image": {
+        "width": 1147,
+        "height": 897,
+        "ratio": 1.2787,
+        "content_type": "image/jpeg",
+        "updated_at": "2026-09-07T00:45:50Z",
+        "original": "https://d2w9rnfcy7mm78.cloudfront.net/50184574/original_d91905cc8002c9402f4adf19a1bc0b87.jpeg?1788741950",
+        "medium": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDE4NDU3NC9vcmlnaW5hbF9kOTE5MDVjYzgwMDJjOTQwMmY0YWRmMTlhMWJjMGI4Ny5qcGVnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxMjAwLCJoZWlnaHQiOjEyMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=",
+        "large": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDE4NDU3NC9vcmlnaW5hbF9kOTE5MDVjYzgwMDJjOTQwMmY0YWRmMTlhMWJjMGI4Ny5qcGVnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxODAwLCJoZWlnaHQiOjE4MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "files": [
+        "50184574-medium.webp",
+        "50184574-large.webp"
+      ]
+    },
+    {
+      "id": 50184564,
       "type": "Image",
       "position": 54,
+      "title": "Nobuyoshi Araki, Tokyo Comedy (A’s Lovers, 1996), 1996/1997 | Michael Hoppen Gallery",
+      "href": "https://www.are.na/block/50184564",
+      "connected_at": "2026-09-07T00:45:34Z",
+      "kind": "image",
+      "source": "https://www.michaelhoppengallery.com/artists/32-nobuyoshi-araki/works/33662-nobuyoshi-araki-tokyo-comedy-as-lovers-1996-1996-1997/",
+      "provider": "michaelhoppengallery.com",
+      "alt": "Nobuyoshi Araki, Tokyo Comedy (A’s Lovers, 1996), 1996/1997 | Michael Hoppen Gallery",
+      "image": {
+        "width": 1334,
+        "height": 1044,
+        "ratio": 1.2778,
+        "content_type": "image/webp",
+        "updated_at": "2026-09-07T00:45:35Z",
+        "original": "https://d2w9rnfcy7mm78.cloudfront.net/50184564/original_530d321bf9dde464892ab84f023b58d1.webp?1788741935",
+        "medium": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDE4NDU2NC9vcmlnaW5hbF81MzBkMzIxYmY5ZGRlNDY0ODkyYWI4NGYwMjNiNThkMS53ZWJwIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxMjAwLCJoZWlnaHQiOjEyMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=",
+        "large": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDE4NDU2NC9vcmlnaW5hbF81MzBkMzIxYmY5ZGRlNDY0ODkyYWI4NGYwMjNiNThkMS53ZWJwIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxODAwLCJoZWlnaHQiOjE4MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "files": [
+        "50184564-medium.webp",
+        "50184564-large.webp"
+      ]
+    },
+    {
+      "id": 34972223,
+      "type": "Image",
+      "position": 53,
+      "title": "sonny-angel-fields.png",
+      "href": "https://www.are.na/block/34972223",
+      "connected_at": "2026-09-07T00:41:18Z",
+      "kind": "image",
+      "source": null,
+      "provider": null,
+      "alt": "sonny-angel-fields.png",
+      "image": {
+        "width": 2734,
+        "height": 2663,
+        "ratio": 1.0267,
+        "content_type": "image/png",
+        "updated_at": "2025-03-04T15:34:05Z",
+        "original": "https://d2w9rnfcy7mm78.cloudfront.net/34972223/original_b8956b9877d4b0ceb30fc77e6a0bb099.png?1741102445",
+        "medium": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzNDk3MjIyMy9vcmlnaW5hbF9iODk1NmI5ODc3ZDRiMGNlYjMwZmM3N2U2YTBiYjA5OS5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==",
+        "large": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzNDk3MjIyMy9vcmlnaW5hbF9iODk1NmI5ODc3ZDRiMGNlYjMwZmM3N2U2YTBiYjA5OS5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ=="
+      },
+      "files": [
+        "34972223-medium.webp",
+        "34972223-large.webp"
+      ]
+    },
+    {
+      "id": 28800724,
+      "type": "Image",
+      "position": 52,
       "title": "9c78c6d6-a972-4fb5-80cd-215c025ef7fa.jpg",
       "href": "https://www.are.na/block/28800724",
       "connected_at": "2026-09-07T00:31:36Z",
@@ -32,58 +214,6 @@
       "files": [
         "28800724-medium.webp",
         "28800724-large.webp"
-      ]
-    },
-    {
-      "id": 22478831,
-      "type": "Image",
-      "position": 53,
-      "title": "i've seen everything",
-      "href": "https://www.are.na/block/22478831",
-      "connected_at": "2026-09-07T00:29:23Z",
-      "kind": "image",
-      "source": "https://twitter.com/ennntropy/status/1674403558790144000/photo/1",
-      "provider": "twitter.com",
-      "alt": "i've seen everything",
-      "image": {
-        "width": 1080,
-        "height": 1080,
-        "ratio": 1,
-        "content_type": "image/jpeg",
-        "updated_at": "2023-06-30T19:43:07Z",
-        "original": "https://d2w9rnfcy7mm78.cloudfront.net/22478831/original_3acee3d1481a2d0b7831cb858b689f60.jpg?1688154187",
-        "medium": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyMjQ3ODgzMS9vcmlnaW5hbF8zYWNlZTNkMTQ4MWEyZDBiNzgzMWNiODU4YjY4OWY2MC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==",
-        "large": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyMjQ3ODgzMS9vcmlnaW5hbF8zYWNlZTNkMTQ4MWEyZDBiNzgzMWNiODU4YjY4OWY2MC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ=="
-      },
-      "files": [
-        "22478831-medium.webp",
-        "22478831-large.webp"
-      ]
-    },
-    {
-      "id": 12181210,
-      "type": "Image",
-      "position": 51,
-      "title": "ioanna-sakellaraki-the-interval-.format-webp.width-1440_ixmkiywijodk0por.webp",
-      "href": "https://www.are.na/block/12181210",
-      "connected_at": "2026-09-07T00:26:42Z",
-      "kind": "image",
-      "source": "https://www.itsnicethat.com/articles/ioanna-sakellaraki-the-interval-of-unreason-photography-080421",
-      "provider": "itsnicethat.com",
-      "alt": "ioanna-sakellaraki-the-interval-.format-webp.width-1440_ixmkiywijodk0por.webp",
-      "image": {
-        "width": 1440,
-        "height": 1440,
-        "ratio": 1,
-        "content_type": "image/webp",
-        "updated_at": "2021-06-05T17:58:44Z",
-        "original": "https://d2w9rnfcy7mm78.cloudfront.net/12181210/original_90d5329787c18736fa9d86943e476690?1622915924",
-        "medium": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIxMjE4MTIxMC9vcmlnaW5hbF85MGQ1MzI5Nzg3YzE4NzM2ZmE5ZDg2OTQzZTQ3NjY5MCIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTIwMCwiaGVpZ2h0IjoxMjAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9LCJ3ZWJwIjp7InF1YWxpdHkiOjc1fSwianBlZyI6eyJxdWFsaXR5Ijo3NX0sInJvdGF0ZSI6bnVsbH19",
-        "large": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIxMjE4MTIxMC9vcmlnaW5hbF85MGQ1MzI5Nzg3YzE4NzM2ZmE5ZDg2OTQzZTQ3NjY5MCIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTgwMCwiaGVpZ2h0IjoxODAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9LCJ3ZWJwIjp7InF1YWxpdHkiOjc1fSwianBlZyI6eyJxdWFsaXR5Ijo3NX0sInJvdGF0ZSI6bnVsbH19"
-      },
-      "files": [
-        "12181210-medium.webp",
-        "12181210-large.webp"
       ]
     },
     {
