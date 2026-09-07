@@ -80,6 +80,10 @@ main { padding: var(--pad); }
   font-size: 11px;
   line-height: 1.2;
   text-transform: uppercase;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
 }
 
 /* A block hung from the baseline of its row aligns on the bottom edge of the
