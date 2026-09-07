@@ -32,7 +32,7 @@ const BANDS = [
   { kind: 'group', spans: [8, 4] },
   { kind: 'solo',  spans: [3],  col: 10 },
   { kind: 'group', spans: [3, 5, 4] },
-  { kind: 'group', spans: [5, 4], gaps: [3] },             // baseline held across a gap
+  { kind: 'group', spans: [5, 4], gaps: [3], mobileGap: true },             // baseline held across a gap
   { kind: 'solo',  spans: [12], col: 1, maxHeight: 6.5 },
   { kind: 'group', spans: [4, 8] },
   { kind: 'group', spans: [6, 3, 3], align: 'start' },     // shared top line, three
@@ -44,7 +44,7 @@ const BANDS = [
   { kind: 'group', spans: [4, 8] },
   { kind: 'solo',  spans: [3],  col: 1 },
   { kind: 'group', spans: [6, 6] },
-  { kind: 'group', spans: [3, 4], gaps: [2], col: 2, align: 'start' },
+  { kind: 'group', spans: [3, 4], gaps: [2], col: 2, align: 'start', mobileGap: true },
   { kind: 'group', spans: [4, 3, 5] },
   { kind: 'group', spans: [8, 4] },
 ];
@@ -227,7 +227,10 @@ function fit(spec, blocks, cols) {
   const k = cols / 12;
   const min = blocks.map(b => (cols === 4 && isPortrait(b) ? 1 : 2));
   const spans = spec.spans.map((s, i) => Math.max(min[i], Math.round(s * k)));
-  const gaps = (spec.gaps ?? []).map(g => (g > 0 && cols > 4 ? 1 : 0));
+  const gaps = (spec.gaps ?? []).map(g => {
+    if (cols === 4) return spec.mobileGap ? 1 : 0;
+    return g > 0 ? 1 : 0;
+  });
   let start = Math.max(1, Math.round(((spec.col ?? 1) - 1) * k) + 1);
 
   // Rounding can push the band past the edge; give back gap first, then the
