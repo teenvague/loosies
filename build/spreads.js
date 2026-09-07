@@ -212,9 +212,14 @@ function fit(spec, blocks, cols) {
   // Give one image two columns and the other two one column each,
   // following whichever image had the largest desktop span.
   if (cols === 4 && n === 3) {
-    const largest = spec.spans.indexOf(Math.max(...spec.spans));
-    const spans = [1, 1, 1];
-    spans[largest] = 2;
+    const patterns = [
+      [1, 1, 2],
+      [1, 2, 1],
+      [2, 1, 1],
+    ];
+
+    const patternIndex = Math.abs(spec.spans.join('').split('').reduce((a, n) => a + Number(n), 0) + (spec.col ?? 1)) % patterns.length;
+    const spans = patterns[patternIndex];
 
     let col = 1;
     return spans.map(span => {
@@ -222,6 +227,24 @@ function fit(spec, blocks, cols) {
       col += span;
       return slot;
     });
+  }
+
+  if (cols === 4 && n === 2) {
+    const patterns = [
+      [1, 3],
+      [3, 1],
+      [2, 2],
+      [1, 3],
+      [3, 1],
+    ];
+
+    const patternIndex = Math.abs(spec.spans[0] * 3 + spec.spans[1] + (spec.col ?? 1)) % patterns.length;
+    const spans = patterns[patternIndex];
+
+    return [
+      { col: 1, span: spans[0], row: 1 },
+      { col: spans[0] + 1, span: spans[1], row: 1 },
+    ];
   }
 
   const k = cols / 12;
