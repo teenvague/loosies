@@ -30,7 +30,7 @@ const BANDS = [
   { kind: 'solo',  spans: [10], col: 1, maxHeight: 7.5 },
   { kind: 'group', spans: [5, 7], align: 'start' },        // shared top line
   { kind: 'group', spans: [8, 4] },
-  { kind: 'solo',  spans: [3],  col: 10 },
+  { kind: 'solo',  spans: [5],  col: 8 },
   { kind: 'group', spans: [3, 5, 4] },
   { kind: 'group', spans: [5, 4], gaps: [3], mobileGap: true },             // baseline held across a gap
   { kind: 'solo',  spans: [12], col: 1, maxHeight: 6.5 },
