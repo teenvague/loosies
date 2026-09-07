@@ -1,13 +1,39 @@
 {
-  "fetched_at": "2026-09-06T23:40:28.543Z",
+  "fetched_at": "2026-09-07T00:02:53.956Z",
   "channel": {
     "id": 5680724,
     "slug": "teenvague-loosies",
     "title": "teenvague / loosies",
-    "updated_at": "2026-09-06T23:39:39Z",
-    "count": 44
+    "updated_at": "2026-09-07T00:01:42Z",
+    "count": 45
   },
   "blocks": [
+    {
+      "id": 50183579,
+      "type": "Image",
+      "position": 45,
+      "title": "Bjork, Army of Me Directed by Michel Gondry",
+      "href": "https://www.are.na/block/50183579",
+      "connected_at": "2026-09-07T00:01:40Z",
+      "kind": "image",
+      "source": null,
+      "provider": null,
+      "alt": "Bjork, Army of Me Directed by Michel Gondry",
+      "image": {
+        "width": 1426,
+        "height": 1060,
+        "ratio": 1.3453,
+        "content_type": "image/png",
+        "updated_at": "2026-09-07T00:01:42Z",
+        "original": "https://d2w9rnfcy7mm78.cloudfront.net/50183579/original_a4225122acf12c48dd37d429be8fcf9f.png?1788739302",
+        "medium": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDE4MzU3OS9vcmlnaW5hbF9hNDIyNTEyMmFjZjEyYzQ4ZGQzN2Q0MjliZThmY2Y5Zi5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==",
+        "large": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDE4MzU3OS9vcmlnaW5hbF9hNDIyNTEyMmFjZjEyYzQ4ZGQzN2Q0MjliZThmY2Y5Zi5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ=="
+      },
+      "files": [
+        "50183579-medium.webp",
+        "50183579-large.webp"
+      ]
+    },
     {
       "id": 6130677,
       "type": "Image",
