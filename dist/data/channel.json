@@ -1,43 +1,95 @@
 {
-  "fetched_at": "2026-09-08T15:01:14.598Z",
+  "fetched_at": "2026-09-08T15:06:28.401Z",
   "channel": {
     "id": 5680724,
     "slug": "teenvague-loosies",
     "title": "teenvague / loosies",
-    "updated_at": "2026-09-08T15:00:09Z",
-    "count": 63
+    "updated_at": "2026-09-08T15:05:59Z",
+    "count": 64
   },
   "blocks": [
     {
-      "id": 12021414,
+      "id": 50236308,
       "type": "Image",
-      "position": 63,
-      "title": "dance shoes worn by marie taglioni, 1829. (coll. taglioni, nmi, den haag) .",
-      "href": "https://www.are.na/block/12021414",
-      "connected_at": "2026-09-08T15:00:09Z",
+      "position": 64,
+      "title": "Cosmopolitan, March 1972",
+      "href": "https://www.are.na/block/50236308",
+      "connected_at": "2026-09-08T15:05:56Z",
       "kind": "image",
       "source": null,
       "provider": null,
-      "alt": "dance shoes worn by marie taglioni, 1829. (coll. taglioni, nmi, den haag) .",
+      "alt": "Cosmopolitan, March 1972",
+      "image": {
+        "width": 3108,
+        "height": 2933,
+        "ratio": 1.0597,
+        "content_type": "image/png",
+        "updated_at": "2026-09-08T15:05:56Z",
+        "original": "https://d2w9rnfcy7mm78.cloudfront.net/50236308/original_6da12d7d8a27d93ee101a98b2feca10a.png?1788879956",
+        "medium": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDIzNjMwOC9vcmlnaW5hbF82ZGExMmQ3ZDhhMjdkOTNlZTEwMWE5OGIyZmVjYTEwYS5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==",
+        "large": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDIzNjMwOC9vcmlnaW5hbF82ZGExMmQ3ZDhhMjdkOTNlZTEwMWE5OGIyZmVjYTEwYS5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ=="
+      },
+      "files": [
+        "50236308-medium.webp",
+        "50236308-large.webp"
+      ]
+    },
+    {
+      "id": 50236302,
+      "type": "Image",
+      "position": 63,
+      "title": "ballet",
+      "href": "https://www.are.na/block/50236302",
+      "connected_at": "2026-09-08T15:05:41Z",
+      "kind": "image",
+      "source": null,
+      "provider": null,
+      "alt": "ballet",
       "image": {
         "width": 800,
         "height": 832,
         "ratio": 0.9615,
-        "content_type": "image/jpeg",
-        "updated_at": "2021-05-21T01:48:39Z",
-        "original": "https://d2w9rnfcy7mm78.cloudfront.net/12021414/original_132a6c30ae81c97fcec92610ed9985f6.jpg?1621561719",
-        "medium": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIxMjAyMTQxNC9vcmlnaW5hbF8xMzJhNmMzMGFlODFjOTdmY2VjOTI2MTBlZDk5ODVmNi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==",
-        "large": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIxMjAyMTQxNC9vcmlnaW5hbF8xMzJhNmMzMGFlODFjOTdmY2VjOTI2MTBlZDk5ODVmNi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ=="
+        "content_type": "image/png",
+        "updated_at": "2026-09-08T15:05:42Z",
+        "original": "https://d2w9rnfcy7mm78.cloudfront.net/50236302/original_6f81009d4cdb33e10715aaa68021f81e.png?1788879942",
+        "medium": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDIzNjMwMi9vcmlnaW5hbF82ZjgxMDA5ZDRjZGIzM2UxMDcxNWFhYTY4MDIxZjgxZS5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==",
+        "large": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDIzNjMwMi9vcmlnaW5hbF82ZjgxMDA5ZDRjZGIzM2UxMDcxNWFhYTY4MDIxZjgxZS5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ=="
       },
       "files": [
-        "12021414-medium.webp",
-        "12021414-large.webp"
+        "50236302-medium.webp",
+        "50236302-large.webp"
+      ]
+    },
+    {
+      "id": 35211402,
+      "type": "Image",
+      "position": 62,
+      "title": "David Lynch",
+      "href": "https://www.are.na/block/35211402",
+      "connected_at": "2026-09-08T15:03:41Z",
+      "kind": "image",
+      "source": null,
+      "provider": null,
+      "alt": "David Lynch",
+      "image": {
+        "width": 1222,
+        "height": 936,
+        "ratio": 1.3056,
+        "content_type": "image/png",
+        "updated_at": "2025-03-13T14:22:59Z",
+        "original": "https://d2w9rnfcy7mm78.cloudfront.net/35211402/original_50ead023edb23dfca2bb2e2b5ff98586.png?1741875779",
+        "medium": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzNTIxMTQwMi9vcmlnaW5hbF81MGVhZDAyM2VkYjIzZGZjYTJiYjJlMmI1ZmY5ODU4Ni5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==",
+        "large": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzNTIxMTQwMi9vcmlnaW5hbF81MGVhZDAyM2VkYjIzZGZjYTJiYjJlMmI1ZmY5ODU4Ni5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ=="
+      },
+      "files": [
+        "35211402-medium.webp",
+        "35211402-large.webp"
       ]
     },
     {
       "id": 49152479,
       "type": "Image",
-      "position": 62,
+      "position": 61,
       "title": "STEVEN MEISEL - VERSACE FW 1998 - from scanned fashion world 3",
       "href": "https://www.are.na/block/49152479",
       "connected_at": "2026-09-08T15:00:04Z",
@@ -63,7 +115,7 @@
     {
       "id": 49172237,
       "type": "Image",
-      "position": 61,
+      "position": 60,
       "title": "Capture d’écran 2026-08-02 à 19.32.50",
       "href": "https://www.are.na/block/49172237",
       "connected_at": "2026-09-07T21:30:51Z",
@@ -84,32 +136,6 @@
       "files": [
         "49172237-medium.webp",
         "49172237-large.webp"
-      ]
-    },
-    {
-      "id": 50215930,
-      "type": "Image",
-      "position": 60,
-      "title": "Cosmopolitan, March 1972",
-      "href": "https://www.are.na/block/50215930",
-      "connected_at": "2026-09-07T21:23:11Z",
-      "kind": "image",
-      "source": null,
-      "provider": null,
-      "alt": "Cosmopolitan, March 1972",
-      "image": {
-        "width": 3024,
-        "height": 3024,
-        "ratio": 1,
-        "content_type": "image/png",
-        "updated_at": "2026-09-07T21:23:13Z",
-        "original": "https://d2w9rnfcy7mm78.cloudfront.net/50215930/original_2d6477e2396098e6fc5fa2a5788ce2b0.png?1788816193",
-        "medium": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDIxNTkzMC9vcmlnaW5hbF8yZDY0NzdlMjM5NjA5OGU2ZmM1ZmEyYTU3ODhjZTJiMC5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==",
-        "large": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDIxNTkzMC9vcmlnaW5hbF8yZDY0NzdlMjM5NjA5OGU2ZmM1ZmEyYTU3ODhjZTJiMC5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ=="
-      },
-      "files": [
-        "50215930-medium.webp",
-        "50215930-large.webp"
       ]
     },
     {
