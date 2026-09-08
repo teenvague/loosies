@@ -1,13 +1,65 @@
 {
-  "fetched_at": "2026-09-08T13:10:16.666Z",
+  "fetched_at": "2026-09-08T15:01:14.598Z",
   "channel": {
     "id": 5680724,
     "slug": "teenvague-loosies",
     "title": "teenvague / loosies",
-    "updated_at": "2026-09-07T21:30:52Z",
-    "count": 61
+    "updated_at": "2026-09-08T15:00:09Z",
+    "count": 63
   },
   "blocks": [
+    {
+      "id": 12021414,
+      "type": "Image",
+      "position": 63,
+      "title": "dance shoes worn by marie taglioni, 1829. (coll. taglioni, nmi, den haag) .",
+      "href": "https://www.are.na/block/12021414",
+      "connected_at": "2026-09-08T15:00:09Z",
+      "kind": "image",
+      "source": null,
+      "provider": null,
+      "alt": "dance shoes worn by marie taglioni, 1829. (coll. taglioni, nmi, den haag) .",
+      "image": {
+        "width": 800,
+        "height": 832,
+        "ratio": 0.9615,
+        "content_type": "image/jpeg",
+        "updated_at": "2021-05-21T01:48:39Z",
+        "original": "https://d2w9rnfcy7mm78.cloudfront.net/12021414/original_132a6c30ae81c97fcec92610ed9985f6.jpg?1621561719",
+        "medium": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIxMjAyMTQxNC9vcmlnaW5hbF8xMzJhNmMzMGFlODFjOTdmY2VjOTI2MTBlZDk5ODVmNi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==",
+        "large": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIxMjAyMTQxNC9vcmlnaW5hbF8xMzJhNmMzMGFlODFjOTdmY2VjOTI2MTBlZDk5ODVmNi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ=="
+      },
+      "files": [
+        "12021414-medium.webp",
+        "12021414-large.webp"
+      ]
+    },
+    {
+      "id": 49152479,
+      "type": "Image",
+      "position": 62,
+      "title": "STEVEN MEISEL - VERSACE FW 1998 - from scanned fashion world 3",
+      "href": "https://www.are.na/block/49152479",
+      "connected_at": "2026-09-08T15:00:04Z",
+      "kind": "image",
+      "source": null,
+      "provider": null,
+      "alt": "STEVEN MEISEL - VERSACE FW 1998 - from scanned fashion world 3",
+      "image": {
+        "width": 2472,
+        "height": 3200,
+        "ratio": 0.7725,
+        "content_type": "image/webp",
+        "updated_at": "2026-08-01T21:30:39Z",
+        "original": "https://d2w9rnfcy7mm78.cloudfront.net/49152479/original_736d4c2a1585cde32584affdb0f39493.webp?1785619839",
+        "medium": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0OTE1MjQ3OS9vcmlnaW5hbF83MzZkNGMyYTE1ODVjZGUzMjU4NGFmZmRiMGYzOTQ5My53ZWJwIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxMjAwLCJoZWlnaHQiOjEyMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=",
+        "large": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0OTE1MjQ3OS9vcmlnaW5hbF83MzZkNGMyYTE1ODVjZGUzMjU4NGFmZmRiMGYzOTQ5My53ZWJwIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxODAwLCJoZWlnaHQiOjE4MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "files": [
+        "49152479-medium.webp",
+        "49152479-large.webp"
+      ]
+    },
     {
       "id": 49172237,
       "type": "Image",
