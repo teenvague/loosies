@@ -1,13 +1,91 @@
 {
-  "fetched_at": "2026-09-11T13:07:24.754Z",
+  "fetched_at": "2026-09-12T13:07:00.243Z",
   "channel": {
     "id": 5680724,
     "slug": "teenvague-loosies",
     "title": "teenvague / loosies",
-    "updated_at": "2026-09-10T18:37:50Z",
-    "count": 70
+    "updated_at": "2026-09-11T17:37:37Z",
+    "count": 73
   },
   "blocks": [
+    {
+      "id": 50343386,
+      "type": "Image",
+      "position": 73,
+      "title": "Instagram",
+      "href": "https://www.are.na/block/50343386",
+      "connected_at": "2026-09-11T17:37:36Z",
+      "kind": "image",
+      "source": "https://www.instagram.com/",
+      "provider": "instagram.com",
+      "alt": "Instagram",
+      "image": {
+        "width": 1153,
+        "height": 1432,
+        "ratio": 0.8052,
+        "content_type": "image/jpeg",
+        "updated_at": "2026-09-11T17:37:37Z",
+        "original": "https://d2w9rnfcy7mm78.cloudfront.net/50343386/original_05f13c8556e208c4870a9ff4c744c35d.jpeg?1789148257",
+        "medium": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDM0MzM4Ni9vcmlnaW5hbF8wNWYxM2M4NTU2ZTIwOGM0ODcwYTlmZjRjNzQ0YzM1ZC5qcGVnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxMjAwLCJoZWlnaHQiOjEyMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=",
+        "large": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDM0MzM4Ni9vcmlnaW5hbF8wNWYxM2M4NTU2ZTIwOGM0ODcwYTlmZjRjNzQ0YzM1ZC5qcGVnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxODAwLCJoZWlnaHQiOjE4MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "files": [
+        "50343386-medium.webp",
+        "50343386-large.webp"
+      ]
+    },
+    {
+      "id": 9680323,
+      "type": "Image",
+      "position": 72,
+      "title": null,
+      "href": "https://www.are.na/block/9680323",
+      "connected_at": "2026-09-11T15:21:02Z",
+      "kind": "image",
+      "source": "https://i.pinimg.com/originals/33/8f/6c/338f6c0171c6c7e614f0b64419a04793.jpg",
+      "provider": "i.pinimg.com",
+      "alt": "",
+      "image": {
+        "width": 476,
+        "height": 511,
+        "ratio": 0.9315,
+        "content_type": "image/jpeg",
+        "updated_at": "2020-11-28T08:35:23Z",
+        "original": "https://d2w9rnfcy7mm78.cloudfront.net/9680323/original_bffbf0da48a9f8932bbac587e1682f00.jpg?1606552523",
+        "medium": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI5NjgwMzIzL29yaWdpbmFsX2JmZmJmMGRhNDhhOWY4OTMyYmJhYzU4N2UxNjgyZjAwLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTIwMCwiaGVpZ2h0IjoxMjAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9LCJ3ZWJwIjp7InF1YWxpdHkiOjc1fSwianBlZyI6eyJxdWFsaXR5Ijo3NX0sInJvdGF0ZSI6bnVsbH19",
+        "large": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI5NjgwMzIzL29yaWdpbmFsX2JmZmJmMGRhNDhhOWY4OTMyYmJhYzU4N2UxNjgyZjAwLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTgwMCwiaGVpZ2h0IjoxODAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9LCJ3ZWJwIjp7InF1YWxpdHkiOjc1fSwianBlZyI6eyJxdWFsaXR5Ijo3NX0sInJvdGF0ZSI6bnVsbH19"
+      },
+      "files": [
+        "9680323-medium.webp",
+        "9680323-large.webp"
+      ]
+    },
+    {
+      "id": 25991260,
+      "type": "Image",
+      "position": 71,
+      "title": "dee32669d8a856c7b97eeb4b3152073da82079ba.jpg",
+      "href": "https://www.are.na/block/25991260",
+      "connected_at": "2026-09-11T15:20:55Z",
+      "kind": "image",
+      "source": "https://zegalba.tumblr.com/page/120",
+      "provider": "zegalba.tumblr.com",
+      "alt": "dee32669d8a856c7b97eeb4b3152073da82079ba.jpg",
+      "image": {
+        "width": 1834,
+        "height": 2048,
+        "ratio": 0.8955,
+        "content_type": "image/jpeg",
+        "updated_at": "2024-01-29T06:29:52Z",
+        "original": "https://d2w9rnfcy7mm78.cloudfront.net/25991260/original_7375b65f944d4d49a462e722fd92d9c3.jpg?1706509792",
+        "medium": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNTk5MTI2MC9vcmlnaW5hbF83Mzc1YjY1Zjk0NGQ0ZDQ5YTQ2MmU3MjJmZDkyZDljMy5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==",
+        "large": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNTk5MTI2MC9vcmlnaW5hbF83Mzc1YjY1Zjk0NGQ0ZDQ5YTQ2MmU3MjJmZDkyZDljMy5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ=="
+      },
+      "files": [
+        "25991260-medium.webp",
+        "25991260-large.webp"
+      ]
+    },
     {
       "id": 50316899,
       "type": "Image",
