@@ -1,10 +1,10 @@
 {
-  "fetched_at": "2026-09-21T13:07:03.114Z",
+  "fetched_at": "2026-09-22T13:08:27.503Z",
   "channel": {
     "id": 5680724,
     "slug": "teenvague-loosies",
     "title": "teenvague / loosies",
-    "updated_at": "2026-09-11T17:37:37Z",
+    "updated_at": "2026-09-21T16:41:23Z",
     "count": 73
   },
   "blocks": [
@@ -87,9 +87,35 @@
       ]
     },
     {
-      "id": 50316899,
+      "id": 50316889,
       "type": "Image",
       "position": 70,
+      "title": "All Posts • Instagram",
+      "href": "https://www.are.na/block/50316889",
+      "connected_at": "2026-09-10T18:37:14Z",
+      "kind": "image",
+      "source": "https://www.instagram.com/p/DcPHqbcklje/?img_index=9",
+      "provider": "instagram.com",
+      "alt": "All Posts • Instagram",
+      "image": {
+        "width": 1080,
+        "height": 1438,
+        "ratio": 0.751,
+        "content_type": "image/jpeg",
+        "updated_at": "2026-09-10T18:37:15Z",
+        "original": "https://d2w9rnfcy7mm78.cloudfront.net/50316889/original_16f86abb59c3dc4b91a944662e420c72.jpeg?1789065435",
+        "medium": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDMxNjg4OS9vcmlnaW5hbF8xNmY4NmFiYjU5YzNkYzRiOTFhOTQ0NjYyZTQyMGM3Mi5qcGVnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxMjAwLCJoZWlnaHQiOjEyMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=",
+        "large": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDMxNjg4OS9vcmlnaW5hbF8xNmY4NmFiYjU5YzNkYzRiOTFhOTQ0NjYyZTQyMGM3Mi5qcGVnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxODAwLCJoZWlnaHQiOjE4MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "files": [
+        "50316889-medium.webp",
+        "50316889-large.webp"
+      ]
+    },
+    {
+      "id": 50316899,
+      "type": "Image",
+      "position": 69,
       "title": "All Posts • Instagram",
       "href": "https://www.are.na/block/50316899",
       "connected_at": "2026-09-10T18:37:49Z",
@@ -115,7 +141,7 @@
     {
       "id": 50316893,
       "type": "Image",
-      "position": 69,
+      "position": 68,
       "title": "All Posts • Instagram",
       "href": "https://www.are.na/block/50316893",
       "connected_at": "2026-09-10T18:37:36Z",
@@ -136,32 +162,6 @@
       "files": [
         "50316893-medium.webp",
         "50316893-large.webp"
-      ]
-    },
-    {
-      "id": 50316889,
-      "type": "Image",
-      "position": 68,
-      "title": "All Posts • Instagram",
-      "href": "https://www.are.na/block/50316889",
-      "connected_at": "2026-09-10T18:37:14Z",
-      "kind": "image",
-      "source": "https://www.instagram.com/p/DcPHqbcklje/?img_index=9",
-      "provider": "instagram.com",
-      "alt": "All Posts • Instagram",
-      "image": {
-        "width": 1080,
-        "height": 1438,
-        "ratio": 0.751,
-        "content_type": "image/jpeg",
-        "updated_at": "2026-09-10T18:37:15Z",
-        "original": "https://d2w9rnfcy7mm78.cloudfront.net/50316889/original_16f86abb59c3dc4b91a944662e420c72.jpeg?1789065435",
-        "medium": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDMxNjg4OS9vcmlnaW5hbF8xNmY4NmFiYjU5YzNkYzRiOTFhOTQ0NjYyZTQyMGM3Mi5qcGVnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxMjAwLCJoZWlnaHQiOjEyMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=",
-        "large": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDMxNjg4OS9vcmlnaW5hbF8xNmY4NmFiYjU5YzNkYzRiOTFhOTQ0NjYyZTQyMGM3Mi5qcGVnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxODAwLCJoZWlnaHQiOjE4MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
-      },
-      "files": [
-        "50316889-medium.webp",
-        "50316889-large.webp"
       ]
     },
     {
