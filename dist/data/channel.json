@@ -1,13 +1,39 @@
 {
-  "fetched_at": "2026-09-27T13:06:53.711Z",
+  "fetched_at": "2026-09-28T13:09:22.253Z",
   "channel": {
     "id": 5680724,
     "slug": "teenvague-loosies",
     "title": "teenvague / loosies",
-    "updated_at": "2026-09-23T17:04:33Z",
-    "count": 75
+    "updated_at": "2026-09-28T02:12:50Z",
+    "count": 76
   },
   "blocks": [
+    {
+      "id": 50830449,
+      "type": "Image",
+      "position": 76,
+      "title": "155_2_post_war_contemporary_art_may_2021_paul_wonner_dutch_still_life_with_flowers_cartons_and_desserts__rago_wright_auction.jpg (2000×2000)",
+      "href": "https://www.are.na/block/50830449",
+      "connected_at": "2026-09-28T02:12:48Z",
+      "kind": "image",
+      "source": "https://www.ragoarts.com/items/index/2000/155_2_post_war_contemporary_art_may_2021_paul_wonner_dutch_still_life_with_flowers_cartons_and_desserts__rago_wright_auction.jpg?t=1692918362",
+      "provider": "ragoarts.com",
+      "alt": "155_2_post_war_contemporary_art_may_2021_paul_wonner_dutch_still_life_with_flowers_cartons_and_desserts__rago_wright_auction.jpg (2000×2000)",
+      "image": {
+        "width": 2000,
+        "height": 2000,
+        "ratio": 1,
+        "content_type": "image/jpeg",
+        "updated_at": "2026-09-28T02:12:49Z",
+        "original": "https://d2w9rnfcy7mm78.cloudfront.net/50830449/original_b9aadd09139b1b21923638837d97e6e4.jpg?1790561569",
+        "medium": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDgzMDQ0OS9vcmlnaW5hbF9iOWFhZGQwOTEzOWIxYjIxOTIzNjM4ODM3ZDk3ZTZlNC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==",
+        "large": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDgzMDQ0OS9vcmlnaW5hbF9iOWFhZGQwOTEzOWIxYjIxOTIzNjM4ODM3ZDk3ZTZlNC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ=="
+      },
+      "files": [
+        "50830449-medium.webp",
+        "50830449-large.webp"
+      ]
+    },
     {
       "id": 50708350,
       "type": "Image",
