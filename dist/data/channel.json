@@ -1,13 +1,39 @@
 {
-  "fetched_at": "2026-10-11T17:53:15.332Z",
+  "fetched_at": "2026-10-12T21:31:49.103Z",
   "channel": {
     "id": 5680724,
     "slug": "teenvague-loosies",
     "title": "teenvague / loosies",
-    "updated_at": "2026-09-28T02:12:50Z",
-    "count": 76
+    "updated_at": "2026-10-12T19:27:22Z",
+    "count": 77
   },
   "blocks": [
+    {
+      "id": 31425400,
+      "type": "Image",
+      "position": 77,
+      "title": "7f7b794e-6efa-4037-b44f-657e45f2629d.jpg",
+      "href": "https://www.are.na/block/31425400",
+      "connected_at": "2026-10-12T19:27:00Z",
+      "kind": "image",
+      "source": null,
+      "provider": null,
+      "alt": "7f7b794e-6efa-4037-b44f-657e45f2629d.jpg",
+      "image": {
+        "width": 1080,
+        "height": 1069,
+        "ratio": 1.0103,
+        "content_type": "image/jpeg",
+        "updated_at": "2024-10-14T23:04:25Z",
+        "original": "https://d2w9rnfcy7mm78.cloudfront.net/31425400/original_53f89a8e3e0511e9266010039ac85ed5.jpg?1728947065",
+        "medium": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzMTQyNTQwMC9vcmlnaW5hbF81M2Y4OWE4ZTNlMDUxMWU5MjY2MDEwMDM5YWM4NWVkNS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==",
+        "large": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzMTQyNTQwMC9vcmlnaW5hbF81M2Y4OWE4ZTNlMDUxMWU5MjY2MDEwMDM5YWM4NWVkNS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ=="
+      },
+      "files": [
+        "31425400-medium.webp",
+        "31425400-large.webp"
+      ]
+    },
     {
       "id": 50830449,
       "type": "Image",
