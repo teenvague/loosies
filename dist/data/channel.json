@@ -1,13 +1,91 @@
 {
-  "fetched_at": "2026-10-20T17:44:08.116Z",
+  "fetched_at": "2026-10-21T17:51:29.223Z",
   "channel": {
     "id": 5680724,
     "slug": "teenvague-loosies",
     "title": "teenvague / loosies",
-    "updated_at": "2026-10-12T19:27:22Z",
-    "count": 77
+    "updated_at": "2026-10-20T23:42:14Z",
+    "count": 80
   },
   "blocks": [
+    {
+      "id": 25342991,
+      "type": "Image",
+      "position": 80,
+      "title": "scontent-cdg4-2.cdninstagram.com-95154772066465360.jpg",
+      "href": "https://www.are.na/block/25342991",
+      "connected_at": "2026-10-20T23:42:14Z",
+      "kind": "image",
+      "source": "https://shft.cl/8x1woa72j",
+      "provider": "shft.cl",
+      "alt": "scontent-cdg4-2.cdninstagram.com-95154772066465360.jpg",
+      "image": {
+        "width": 1440,
+        "height": 1773,
+        "ratio": 0.8122,
+        "content_type": "image/jpeg",
+        "updated_at": "2023-12-22T10:36:43Z",
+        "original": "https://d2w9rnfcy7mm78.cloudfront.net/25342991/original_65ef0aa8badb05861bf5d1330b5b524f.jpg?1703241403",
+        "medium": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNTM0Mjk5MS9vcmlnaW5hbF82NWVmMGFhOGJhZGIwNTg2MWJmNWQxMzMwYjViNTI0Zi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==",
+        "large": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNTM0Mjk5MS9vcmlnaW5hbF82NWVmMGFhOGJhZGIwNTg2MWJmNWQxMzMwYjViNTI0Zi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ=="
+      },
+      "files": [
+        "25342991-medium.webp",
+        "25342991-large.webp"
+      ]
+    },
+    {
+      "id": 18274836,
+      "type": "Image",
+      "position": 79,
+      "title": "hanna_colo_galery_1-scaled-e1646992409358.jpg",
+      "href": "https://www.are.na/block/18274836",
+      "connected_at": "2026-10-20T19:24:08Z",
+      "kind": "image",
+      "source": "https://asgparis.com/jeremy-soma-all-images/",
+      "provider": "asgparis.com",
+      "alt": "hanna_colo_galery_1-scaled-e1646992409358.jpg",
+      "image": {
+        "width": 2000,
+        "height": 1705,
+        "ratio": 1.173,
+        "content_type": "image/jpeg",
+        "updated_at": "2022-09-29T09:53:30Z",
+        "original": "https://d2w9rnfcy7mm78.cloudfront.net/18274836/original_d6573c4e534d9e79fd426a0719515401.jpg?1664445210",
+        "medium": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIxODI3NDgzNi9vcmlnaW5hbF9kNjU3M2M0ZTUzNGQ5ZTc5ZmQ0MjZhMDcxOTUxNTQwMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==",
+        "large": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIxODI3NDgzNi9vcmlnaW5hbF9kNjU3M2M0ZTUzNGQ5ZTc5ZmQ0MjZhMDcxOTUxNTQwMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ=="
+      },
+      "files": [
+        "18274836-medium.webp",
+        "18274836-large.webp"
+      ]
+    },
+    {
+      "id": 22309735,
+      "type": "Image",
+      "position": 78,
+      "title": "355085740_804240907674799_1134186343721469787_n.jpg?stp=dst-jpg_e35-_nc_ht=instagram.fcxh2-1.fna.fbcdn.net-_nc_cat=107-_nc_o...",
+      "href": "https://www.are.na/block/22309735",
+      "connected_at": "2026-10-20T19:19:25Z",
+      "kind": "image",
+      "source": "https://instagram.fcxh2-1.fna.fbcdn.net/v/t51.2885-15/355085740_804240907674799_1134186343721469787_n.jpg?stp=dst-jpg_e35&_nc_ht=instagram.fcxh2-1.fna.fbcdn.net&_nc_cat=107&_nc_ohc=MXJnATqhWGQAX8ZT290&edm=ACOOH6wBAAAA&ccb=7-5&ig_cache_key=MzEyNzM4NzI2MDAzMDc0NDAwNg%3D%3D.2-ccb7-5&oh=00_AfBQKmqmB1TVnIH81tcRZzT57Akx4RdvZH4HnW-i-y_HxA&oe=64948AC4&_nc_sid=e49ee4",
+      "provider": "instagram.fcxh2-1.fna.fbcdn.net",
+      "alt": "355085740_804240907674799_1134186343721469787_n.jpg?stp=dst-jpg_e35-_nc_ht=instagram.fcxh2-1.fna.fbcdn.net-_nc_cat=107-_nc_o...",
+      "image": {
+        "width": 1440,
+        "height": 1800,
+        "ratio": 0.8,
+        "content_type": "image/jpeg",
+        "updated_at": "2023-06-19T01:26:05Z",
+        "original": "https://d2w9rnfcy7mm78.cloudfront.net/22309735/original_7e681365f8da52ea9343ccf0691e691a.jpg?1687137965",
+        "medium": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyMjMwOTczNS9vcmlnaW5hbF83ZTY4MTM2NWY4ZGE1MmVhOTM0M2NjZjA2OTFlNjkxYS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==",
+        "large": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyMjMwOTczNS9vcmlnaW5hbF83ZTY4MTM2NWY4ZGE1MmVhOTM0M2NjZjA2OTFlNjkxYS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ=="
+      },
+      "files": [
+        "22309735-medium.webp",
+        "22309735-large.webp"
+      ]
+    },
     {
       "id": 31425400,
       "type": "Image",
