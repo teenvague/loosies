@@ -1,13 +1,65 @@
 {
-  "fetched_at": "2026-11-12T20:37:29.249Z",
+  "fetched_at": "2026-11-13T20:16:00.289Z",
   "channel": {
     "id": 5680724,
     "slug": "teenvague-loosies",
     "title": "teenvague / loosies",
-    "updated_at": "2026-10-20T23:42:14Z",
-    "count": 80
+    "updated_at": "2026-11-13T04:15:56Z",
+    "count": 82
   },
   "blocks": [
+    {
+      "id": 52740605,
+      "type": "Image",
+      "position": 82,
+      "title": "Proust La Prisonniere 1923 - In Search of Lost Time - Wikipedia",
+      "href": "https://www.are.na/block/52740605",
+      "connected_at": "2026-11-13T04:15:54Z",
+      "kind": "image",
+      "source": "https://en.wikipedia.org/wiki/In_Search_of_Lost_Time#/media/File:Proust_La_Prisonniere_1923.jpg",
+      "provider": "en.wikipedia.org",
+      "alt": "Proust La Prisonniere 1923 - In Search of Lost Time - Wikipedia",
+      "image": {
+        "width": 942,
+        "height": 1428,
+        "ratio": 0.6597,
+        "content_type": "image/jpeg",
+        "updated_at": "2026-11-13T04:15:55Z",
+        "original": "https://d2w9rnfcy7mm78.cloudfront.net/52740605/original_a3ad1c330e2df0c0f4487ac6bf585e0a.jpg?1794543355",
+        "medium": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1Mjc0MDYwNS9vcmlnaW5hbF9hM2FkMWMzMzBlMmRmMGMwZjQ0ODdhYzZiZjU4NWUwYS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==",
+        "large": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1Mjc0MDYwNS9vcmlnaW5hbF9hM2FkMWMzMzBlMmRmMGMwZjQ0ODdhYzZiZjU4NWUwYS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ=="
+      },
+      "files": [
+        "52740605-medium.webp",
+        "52740605-large.webp"
+      ]
+    },
+    {
+      "id": 52740599,
+      "type": "Image",
+      "position": 81,
+      "title": "Proust 1917 - In Search of Lost Time - Wikipedia",
+      "href": "https://www.are.na/block/52740599",
+      "connected_at": "2026-11-13T04:15:15Z",
+      "kind": "image",
+      "source": "https://en.wikipedia.org/wiki/In_Search_of_Lost_Time#/media/File:Proust_1917.jpg",
+      "provider": "en.wikipedia.org",
+      "alt": "Proust 1917 - In Search of Lost Time - Wikipedia",
+      "image": {
+        "width": 1084,
+        "height": 1683,
+        "ratio": 0.6441,
+        "content_type": "image/jpeg",
+        "updated_at": "2026-11-13T04:15:16Z",
+        "original": "https://d2w9rnfcy7mm78.cloudfront.net/52740599/original_67c555519f9ceb899016d98fbc68ce5b.jpg?1794543316",
+        "medium": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1Mjc0MDU5OS9vcmlnaW5hbF82N2M1NTU1MTlmOWNlYjg5OTAxNmQ5OGZiYzY4Y2U1Yi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==",
+        "large": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1Mjc0MDU5OS9vcmlnaW5hbF82N2M1NTU1MTlmOWNlYjg5OTAxNmQ5OGZiYzY4Y2U1Yi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ=="
+      },
+      "files": [
+        "52740599-medium.webp",
+        "52740599-large.webp"
+      ]
+    },
     {
       "id": 25342991,
       "type": "Image",
